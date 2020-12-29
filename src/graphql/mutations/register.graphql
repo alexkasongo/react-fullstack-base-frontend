@@ -1,3 +1,6 @@
+# Everytime we want to add a mutation or a query. We add our query/mutation and run
+# yarn gen which generates our hooks. The name of our hook is based on the generated hook.
+
 mutation Register($username: String!, $password: String!) {
   register(options: { username: $username, password: $password }) {
     errors {
