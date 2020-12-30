@@ -1,6 +1,5 @@
 query Me {
   me {
-    id
-    username
+    ...RegularUser # this is a fragment
   }
 }
