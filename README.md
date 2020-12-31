@@ -3,3 +3,4 @@
 3. yarn graphql-codegen init
 4. yarn add -D @graphql-codegen/typescript-urql
 5. yarn add @urql/exchange-graphcache
+6. yarn add next-urql react-is isomorphic-unfetch // setup server-side rendering
